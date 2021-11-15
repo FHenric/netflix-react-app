@@ -11,8 +11,8 @@ export default ({black}) => {
 
             <div className='header--user'>
                 <a href="/">
-                // eslint-disable-next-line
-                    <img src='../../assets/user.jpg'/>
+                {/* // eslint-disable-next-line */}
+                    <img src='../../assets/user.jpg' alt="user"/>
                 </a>
             </div>
         </header>

@@ -47,8 +47,8 @@ export default ({title, items}) => {
                     {items.results.length > 0 && items.results.map((item, key)=>(
                         
                         <div key={key} className="movieRow--item">
-                            // eslint-disable-next-line
-                            <img src={`https://image.tmdb.org/t/p/w300${item.poster_path}`} />
+                            {/* eslint-disable-next-line */}
+                            <img alt="poster" src={`https://image.tmdb.org/t/p/w300${item.poster_path}`} />
                         </div>
                         
                     ))}
