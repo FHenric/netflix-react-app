@@ -1,5 +1,5 @@
 import './Header.css'
-
+// eslint-disable-next-line
 export default ({black}) => {
     return (
         <header className={black ? "black" : ''}>
@@ -11,7 +11,8 @@ export default ({black}) => {
 
             <div className='header--user'>
                 <a href="/">
-                    <img src='https://avatars.githubusercontent.com/u/83479925?s=400&u=0d9d80de63ed39f984b5157755ea89d62c2bf025&v=4'/>
+                // eslint-disable-next-line
+                    <img src='../../assets/user.jpg'/>
                 </a>
             </div>
         </header>

@@ -8,7 +8,7 @@ import Header from "./components/Header";
 
 import './App.css'
 
-
+// eslint-disable-next-line
 export default () => {
 
   //States
@@ -79,3 +79,4 @@ export default () => {
     </div>
   );
 }
+

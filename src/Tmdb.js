@@ -21,7 +21,7 @@ const basicFetch = async (endpoint) => {
 }
 
 // Listagem da Página principal
-
+// eslint-disable-next-line
 export default {
     getHomeList: async () => {
         return [
